@@ -1,5 +1,5 @@
 // index.js
-// Si usas Node 18+ puedes quitar la importación y usar fetch nativo
+// Si se usa Node 18+ se puede quitar la importación y usar fetch nativo
 import fetch from "node-fetch"; 
 
 // Destructuring y spread para capturar los argumentos
@@ -81,9 +81,9 @@ switch (method) {
     break;
 
   default:
-    console.log("\x1b[31mComando no reconocido. Usá:\x1b[0m");
-    console.log("GET products");
-    console.log("GET products [id]");
-    console.log("POST products <title> <price> <category> <description>");
-    console.log("DELETE products <id>");
+    console.log("\x1b[31mComando no reconocido. USÁ:\x1b[0m");
+    console.log("npm run start GET products");
+    console.log("npm run start GET products [id]");
+    console.log("npm run start POST products <title> <price> <category> <description>");
+    console.log("npm run start DELETE products [id]");
 }
